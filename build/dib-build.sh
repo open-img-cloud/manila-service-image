@@ -54,7 +54,7 @@ echo "[dib-build] out_dir=$OUT_DIR version=$VERSION mie_ref=$MIE_REF release=$MA
 apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
   qemu-utils git kpartx debootstrap python3-venv python3-pip \
-  ca-certificates curl xz-utils e2fsprogs dosfstools sudo gdisk util-linux
+  ca-certificates jq curl xz-utils e2fsprogs dosfstools sudo gdisk util-linux
 
 # --- Upper-constraints for diskimage-builder, per series ------------------
 # The series only selects the constraints (diskimage-builder version) and
