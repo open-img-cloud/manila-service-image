@@ -39,8 +39,8 @@ control plane component**: Manila boots it, tenants never do.
 
 | OpenStack series | Codename | Manila branch | Status here |
 |---|---|---|---|
-| 2025.2 | Flamingo | stable/2025.2 | buildable |
-| 2026.1 | Gazpacho | stable/2026.1 | buildable |
+| 2025.2 | Flamingo | stable/2025.2 | published |
+| 2026.1 | Gazpacho | stable/2026.1 | published |
 | 2026.2 | Hibiscus | stable/2026.2 | published, `latest/` |
 
 The guest content comes from the pinned `manila-image-elements` commit; the series selects the
